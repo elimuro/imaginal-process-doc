@@ -95,8 +95,3 @@ Since there's no audio reactivity, a web demo could instead simulate the trigger
 
 Is there a specific performer or context this is built for (a VJ set, a theater piece, an installation)? That'd help pin down how much to emphasize the "instrument" versus the visual output itself.
 
-
-
-
-
-Claude is AI and can make mistakes. Please double-check responses.
