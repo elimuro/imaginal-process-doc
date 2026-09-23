@@ -33512,6 +33512,1330 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "r1REo",
+      "x": 29224,
+      "y": -24,
+      "name": "Layout — Pitch, selected",
+      "clip": true,
+      "width": 1440,
+      "fill": "#0C0C0B",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": [
+        56,
+        80,
+        80,
+        80
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "i2Y2g",
+          "name": "Meta",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "VgGp1",
+              "name": "Wordmark",
+              "fill": "#F3F1EC",
+              "content": "IMAGINAL AIRLINES",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "Pbkd9",
+              "name": "Section",
+              "fill": "#A39E96",
+              "content": "COMPOSITION",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "abMYh",
+          "name": "Kicker",
+          "fill": "#A39E96",
+          "content": "PLAYER 1  ·  PITCH",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": 12,
+          "fontWeight": "normal",
+          "letterSpacing": 1
+        },
+        {
+          "type": "text",
+          "id": "Zeh4m",
+          "name": "Headline",
+          "fill": "#F3F1EC",
+          "content": "The register line.",
+          "fontFamily": "Newsreader",
+          "fontSize": 56,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "zrgZ7",
+          "name": "Deck",
+          "fill": "#C8C3BA",
+          "textGrowth": "fixed-width",
+          "width": 560,
+          "content": "The composition stays. This band is selected, and its vocabulary is the one in view.",
+          "lineHeight": 1.45,
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": 18,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "n6z9E",
+          "name": "Stage",
+          "width": "fill_container",
+          "gap": 64,
+          "padding": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "bAbYQ",
+              "name": "Player column",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "c89Psr",
+                  "name": "Score",
+                  "width": 256,
+                  "fill": "#000000",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "y3P68",
+                      "name": "Player 1",
+                      "theme": {
+                        "tokens": "P1"
+                      },
+                      "width": "fill_container",
+                      "fill": "#000000",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "rprAe",
+                          "name": "Rhythm highlight",
+                          "width": "fill_container",
+                          "stroke": "#E4D7B8",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "outer",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kN8Ew",
+                              "name": "Mark",
+                              "fill": "#E4D7B8",
+                              "content": "PITCH",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "id": "viN2I",
+                              "type": "ref",
+                              "ref": "A5z5p",
+                              "name": "pitch",
+                              "width": 256,
+                              "height": 21.060546875,
+                              "opacity": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "q5GnzQ",
+                          "name": "Improv nav",
+                          "fill": "#6A655F",
+                          "content": "IMPROV",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1.2
+                        },
+                        {
+                          "type": "frame",
+                          "id": "e9FIfw",
+                          "name": "improv cues",
+                          "opacity": 0.22,
+                          "width": 256,
+                          "height": 256,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "H4HpVY",
+                              "name": "cue row",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "children": [
+                                {
+                                  "id": "kl8SQ",
+                                  "type": "ref",
+                                  "ref": "IROBG",
+                                  "name": "Cue",
+                                  "width": "fill_container",
+                                  "height": "fill_container"
+                                },
+                                {
+                                  "id": "KfJwh",
+                                  "type": "ref",
+                                  "ref": "p2clvT",
+                                  "name": "Cue",
+                                  "width": "fill_container",
+                                  "height": "fill_container"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ss8Ro",
+                              "name": "cue row",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "children": [
+                                {
+                                  "id": "Bx4sz",
+                                  "type": "ref",
+                                  "ref": "Y8wdP9",
+                                  "name": "Cue",
+                                  "width": "fill_container",
+                                  "height": "fill_container"
+                                },
+                                {
+                                  "id": "kGOF3",
+                                  "type": "ref",
+                                  "ref": "RI6QO",
+                                  "name": "Cue",
+                                  "width": "fill_container",
+                                  "height": "fill_container"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "XqB0A",
+                          "name": "Rhythm nav",
+                          "fill": "#6A655F",
+                          "content": "RHYTHM",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1.2
+                        },
+                        {
+                          "id": "zJzx1",
+                          "type": "ref",
+                          "ref": "MKYzW",
+                          "name": "Rhythm",
+                          "width": 256,
+                          "height": 128,
+                          "opacity": 0.22
+                        },
+                        {
+                          "type": "text",
+                          "id": "CVElX",
+                          "name": "Intensity nav",
+                          "fill": "#6A655F",
+                          "content": "INTENSITY",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1.2
+                        },
+                        {
+                          "id": "yoldP",
+                          "type": "ref",
+                          "ref": "sGpjj",
+                          "name": "intensity",
+                          "width": 256,
+                          "height": 48,
+                          "opacity": 0.22
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "QerHL",
+                  "name": "In use note",
+                  "fill": "#A39E96",
+                  "content": "Select a band, or scroll.",
+                  "textAlign": "center",
+                  "fontFamily": "IBM Plex Sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "A6VEt",
+              "name": "Vocabulary",
+              "width": "fill_container",
+              "stroke": "#2A2826",
+              "strokeWidth": {
+                "left": 1
+              },
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                0,
+                0,
+                0,
+                36
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VMLyR",
+                  "name": "Section index",
+                  "width": "fill_container",
+                  "gap": 22,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sturM",
+                      "name": "Pitch index",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KQyLY",
+                          "name": "Num",
+                          "fill": "#E4D7B8",
+                          "content": "01",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vFctl",
+                          "name": "Label",
+                          "fill": "#F3F1EC",
+                          "content": "Pitch",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jpAxg",
+                      "name": "Improv index",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Io5gH",
+                          "name": "Num",
+                          "fill": "#6A655F",
+                          "content": "02",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nqjBa",
+                          "name": "Label",
+                          "fill": "#6A655F",
+                          "content": "Improv",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F971M",
+                      "name": "Rhythm index",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FJLWD",
+                          "name": "Num",
+                          "fill": "#6A655F",
+                          "content": "03",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lP988",
+                          "name": "Label",
+                          "fill": "#6A655F",
+                          "content": "Rhythm",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UGVAz",
+                      "name": "Intensity index",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FI6uJ",
+                          "name": "Num",
+                          "fill": "#6A655F",
+                          "content": "04",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "s8pIXM",
+                          "name": "Label",
+                          "fill": "#6A655F",
+                          "content": "Intensity",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "P0O5k",
+                  "name": "Rest label",
+                  "fill": "#A39E96",
+                  "content": "ALL PITCH CUES",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "UHo3C",
+                  "name": "Gallery copy",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EEXcL",
+                      "name": "Gallery title",
+                      "fill": "#F3F1EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Every register mark.",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PwHx6",
+                      "name": "Gallery body",
+                      "fill": "#C8C3BA",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Three positions on the line. This territory uses the mark at the left.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "IBM Plex Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wnjiF",
+                  "name": "Pitch shelf",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "a609vw",
+                      "name": "Mark at the left",
+                      "width": 256,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "ZCzQp",
+                          "type": "ref",
+                          "ref": "A5z5p",
+                          "name": "Mark at the left cue",
+                          "width": 256,
+                          "height": 21.060546875
+                        },
+                        {
+                          "type": "text",
+                          "id": "cHiQ4",
+                          "name": "Name",
+                          "fill": "#C8C3BA",
+                          "textGrowth": "fixed-width",
+                          "width": 256,
+                          "content": "Mark at the left",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "k6Acp",
+                      "name": "Mark at the right",
+                      "width": 256,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "M0rCL5",
+                          "type": "ref",
+                          "ref": "YKMMx",
+                          "name": "Mark at the right cue",
+                          "width": 256,
+                          "height": 20
+                        },
+                        {
+                          "type": "text",
+                          "id": "l2iiq",
+                          "name": "Name",
+                          "fill": "#C8C3BA",
+                          "textGrowth": "fixed-width",
+                          "width": 256,
+                          "content": "Mark at the right",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "i5AcH",
+                      "name": "A mark at each end",
+                      "width": 256,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "kbRgz",
+                          "type": "ref",
+                          "ref": "SdAA6",
+                          "name": "A mark at each end cue",
+                          "width": 256,
+                          "height": 22
+                        },
+                        {
+                          "type": "text",
+                          "id": "UeUNN",
+                          "name": "Name",
+                          "fill": "#C8C3BA",
+                          "textGrowth": "fixed-width",
+                          "width": 256,
+                          "content": "A mark at each end",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "S6spx",
+                  "name": "Next section",
+                  "width": "fill_container",
+                  "stroke": "#2A2826",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "N6yxS",
+                      "name": "Next kicker",
+                      "fill": "#6A655F",
+                      "content": "02   ·   NEXT",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "w8ojv",
+                      "name": "Next title",
+                      "fill": "#6A655F",
+                      "content": "Improv",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 26,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "JgpGW",
+      "x": 30744,
+      "y": -24,
+      "name": "Layout — Intensity, selected",
+      "clip": true,
+      "width": 1440,
+      "fill": "#0C0C0B",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": [
+        56,
+        80,
+        80,
+        80
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "Mh7D1",
+          "name": "Meta",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "CMlou",
+              "name": "Wordmark",
+              "fill": "#F3F1EC",
+              "content": "IMAGINAL AIRLINES",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "Gerp1",
+              "name": "Section",
+              "fill": "#A39E96",
+              "content": "COMPOSITION",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "CvtmB",
+          "name": "Kicker",
+          "fill": "#A39E96",
+          "content": "PLAYER 1  ·  INTENSITY",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": 12,
+          "fontWeight": "normal",
+          "letterSpacing": 1
+        },
+        {
+          "type": "text",
+          "id": "G3TUU",
+          "name": "Headline",
+          "fill": "#F3F1EC",
+          "content": "The weight wave.",
+          "fontFamily": "Newsreader",
+          "fontSize": 56,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "XvS7Y",
+          "name": "Deck",
+          "fill": "#C8C3BA",
+          "textGrowth": "fixed-width",
+          "width": 560,
+          "content": "The composition stays. This band is selected, and its vocabulary is the one in view.",
+          "lineHeight": 1.45,
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": 18,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "t79zU",
+          "name": "Stage",
+          "width": "fill_container",
+          "gap": 64,
+          "padding": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "viqbH",
+              "name": "Player column",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yWtTz",
+                  "name": "Score",
+                  "width": 256,
+                  "fill": "#000000",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "V5iS0V",
+                      "name": "Player 1",
+                      "theme": {
+                        "tokens": "P1"
+                      },
+                      "width": "fill_container",
+                      "fill": "#000000",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nWOSl",
+                          "name": "Pitch nav",
+                          "fill": "#6A655F",
+                          "content": "PITCH",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1.2
+                        },
+                        {
+                          "id": "lpnrj",
+                          "type": "ref",
+                          "ref": "A5z5p",
+                          "name": "pitch",
+                          "width": 256,
+                          "height": 21.060546875,
+                          "opacity": 0.22
+                        },
+                        {
+                          "type": "text",
+                          "id": "n1VN6",
+                          "name": "Improv nav",
+                          "fill": "#6A655F",
+                          "content": "IMPROV",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1.2
+                        },
+                        {
+                          "type": "frame",
+                          "id": "oO2mZ",
+                          "name": "improv cues",
+                          "opacity": 0.22,
+                          "width": 256,
+                          "height": 256,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Oyalj",
+                              "name": "cue row",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "children": [
+                                {
+                                  "id": "Q347C",
+                                  "type": "ref",
+                                  "ref": "IROBG",
+                                  "name": "Cue",
+                                  "width": "fill_container",
+                                  "height": "fill_container"
+                                },
+                                {
+                                  "id": "O41cmf",
+                                  "type": "ref",
+                                  "ref": "p2clvT",
+                                  "name": "Cue",
+                                  "width": "fill_container",
+                                  "height": "fill_container"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "jbt1L",
+                              "name": "cue row",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "children": [
+                                {
+                                  "id": "YREZz",
+                                  "type": "ref",
+                                  "ref": "Y8wdP9",
+                                  "name": "Cue",
+                                  "width": "fill_container",
+                                  "height": "fill_container"
+                                },
+                                {
+                                  "id": "aMkVv",
+                                  "type": "ref",
+                                  "ref": "RI6QO",
+                                  "name": "Cue",
+                                  "width": "fill_container",
+                                  "height": "fill_container"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "yG8ZR",
+                          "name": "Rhythm nav",
+                          "fill": "#6A655F",
+                          "content": "RHYTHM",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1.2
+                        },
+                        {
+                          "id": "KvFgh",
+                          "type": "ref",
+                          "ref": "MKYzW",
+                          "name": "Rhythm",
+                          "width": 256,
+                          "height": 128,
+                          "opacity": 0.22
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LniLG",
+                          "name": "Rhythm highlight",
+                          "width": "fill_container",
+                          "stroke": "#E4D7B8",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "outer",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "S55Lr",
+                              "name": "Mark",
+                              "fill": "#E4D7B8",
+                              "content": "INTENSITY",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 11,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "id": "bmmL8",
+                              "type": "ref",
+                              "ref": "sGpjj",
+                              "name": "intensity",
+                              "width": 256,
+                              "height": 48,
+                              "opacity": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "TGEoC",
+                  "name": "In use note",
+                  "fill": "#A39E96",
+                  "content": "Select a band, or scroll.",
+                  "textAlign": "center",
+                  "fontFamily": "IBM Plex Sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Mk789",
+              "name": "Vocabulary",
+              "width": "fill_container",
+              "stroke": "#2A2826",
+              "strokeWidth": {
+                "left": 1
+              },
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                0,
+                0,
+                0,
+                36
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "j87DN",
+                  "name": "Section index",
+                  "width": "fill_container",
+                  "gap": 22,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BasOB",
+                      "name": "Pitch index",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RNbUt",
+                          "name": "Num",
+                          "fill": "#6A655F",
+                          "content": "01",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qjCzU",
+                          "name": "Label",
+                          "fill": "#6A655F",
+                          "content": "Pitch",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F6nH7",
+                      "name": "Improv index",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "I62LF",
+                          "name": "Num",
+                          "fill": "#6A655F",
+                          "content": "02",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ts1nm",
+                          "name": "Label",
+                          "fill": "#6A655F",
+                          "content": "Improv",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qDjx7",
+                      "name": "Rhythm index",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Ei02y",
+                          "name": "Num",
+                          "fill": "#6A655F",
+                          "content": "03",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UfotK",
+                          "name": "Label",
+                          "fill": "#6A655F",
+                          "content": "Rhythm",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NEMuH",
+                      "name": "Intensity index",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nJOJP",
+                          "name": "Num",
+                          "fill": "#E4D7B8",
+                          "content": "04",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kPdhs",
+                          "name": "Label",
+                          "fill": "#F3F1EC",
+                          "content": "Intensity",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "lIIbi",
+                  "name": "Rest label",
+                  "fill": "#A39E96",
+                  "content": "ALL INTENSITY CUES",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "y4o0pl",
+                  "name": "Gallery copy",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lpLE3",
+                      "name": "Gallery title",
+                      "fill": "#F3F1EC",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Every wave that can set the weight.",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Newsreader",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iSH0r",
+                      "name": "Gallery body",
+                      "fill": "#C8C3BA",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "This territory uses a single crest. The others rise two, three, five, and seven times.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "IBM Plex Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "R4mpD",
+                  "name": "Intensity shelf",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KJonU",
+                      "name": "One crest",
+                      "width": 256,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "aOOr4",
+                          "type": "ref",
+                          "ref": "sGpjj",
+                          "name": "One crest cue",
+                          "width": 256,
+                          "height": 48
+                        },
+                        {
+                          "type": "text",
+                          "id": "aGXUy",
+                          "name": "Name",
+                          "fill": "#C8C3BA",
+                          "textGrowth": "fixed-width",
+                          "width": 256,
+                          "content": "One crest",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yud1V",
+                      "name": "Two crests",
+                      "width": 256,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "x00xfh",
+                          "type": "ref",
+                          "ref": "NTia5",
+                          "name": "Two crests cue",
+                          "width": 256,
+                          "height": 48
+                        },
+                        {
+                          "type": "text",
+                          "id": "RlOlp",
+                          "name": "Name",
+                          "fill": "#C8C3BA",
+                          "textGrowth": "fixed-width",
+                          "width": 256,
+                          "content": "Two crests",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "a87Hp",
+                      "name": "Three crests",
+                      "width": 256,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "sXSoy",
+                          "type": "ref",
+                          "ref": "E3M3IT",
+                          "name": "Three crests cue",
+                          "width": 256,
+                          "height": 48
+                        },
+                        {
+                          "type": "text",
+                          "id": "q3QAff",
+                          "name": "Name",
+                          "fill": "#C8C3BA",
+                          "textGrowth": "fixed-width",
+                          "width": 256,
+                          "content": "Three crests",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "T4MSu",
+                  "name": "Intensity shelf",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sseCD",
+                      "name": "Five crests",
+                      "width": 256,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "uJKhO",
+                          "type": "ref",
+                          "ref": "S82b9F",
+                          "name": "Five crests cue",
+                          "width": 256,
+                          "height": 48
+                        },
+                        {
+                          "type": "text",
+                          "id": "p7QNk",
+                          "name": "Name",
+                          "fill": "#C8C3BA",
+                          "textGrowth": "fixed-width",
+                          "width": 256,
+                          "content": "Five crests",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rtdhW",
+                      "name": "Seven crests",
+                      "width": 256,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "id": "vdagz",
+                          "type": "ref",
+                          "ref": "TKR4y",
+                          "name": "Seven crests cue",
+                          "width": 256,
+                          "height": 48
+                        },
+                        {
+                          "type": "text",
+                          "id": "kbMXd",
+                          "name": "Name",
+                          "fill": "#C8C3BA",
+                          "textGrowth": "fixed-width",
+                          "width": 256,
+                          "content": "Seven crests",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eeqyB",
+                  "name": "Next section",
+                  "width": "fill_container",
+                  "stroke": "#2A2826",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "m6KhUp",
+                      "name": "Next kicker",
+                      "fill": "#6A655F",
+                      "content": "END",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Wxsib",
+                      "name": "Next title",
+                      "fill": "#6A655F",
+                      "content": "Last band in the territory.",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 26,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "themes": {
